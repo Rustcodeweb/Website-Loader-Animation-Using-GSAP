@@ -1,0 +1,35 @@
+body{
+  padding: 0px;
+  margin: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #F2EDEB;
+}
+
+.path{
+  width: 200px;
+  height: 10px;
+  background: #2A2D34;
+  margin-bottom: 80px;
+  border-radius: 6px;
+}
+
+.ball-1, .ball-2{
+  position: relative;
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  background: white;
+}
+
+.ball-1{
+  top: 65px;
+  background: #247BA0;
+}
+
+.ball-2{
+  top: 25px;
+  background: #5C946E;
+}
